@@ -1,0 +1,134 @@
+.userGallery{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.mainProfileImage{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    background-color: rgba(151, 151, 151, 0.7);
+    height: 40vw;
+    width: 60vw;
+}
+
+.profileSetOfPhotos{
+    margin-top: 1vw;
+    width: 80vw;
+    height: 13vw;
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.profilePhotoDiv{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 15vw;
+}
+
+.profileSmallImg {
+    background-color: black;
+    position: static;
+    width: 100%;
+    height: 8vw;
+    box-shadow: 0px 0px 10px black;
+}
+
+.comments
+{
+    background-color: #ffffff;
+    height: 20vw;
+    width: 50vw;
+    resize: none;
+    border: 3px inset #08558b;
+}
+
+.answer{
+    background-color: #ffffff;
+    width: 50vw;
+    height: 3vh;
+    resize: none;
+    border: 3px inset #08558b;
+}
+
+.commentDiv
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center
+}
+
+.profileUpdateForm{
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background-color: rgba(0,0,0, 0.8);
+    background-size: cover;
+    color:white;
+    width: 100%;
+    height: calc(100vw + 100vh);
+    margin-top: 15vh;
+}
+
+.cameraSetOfPhotos{
+    width: 10vw;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.camPhotoDiv{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 5vw;
+    width: 100%;
+}
+
+.camSmallImg {
+    background-color: black;
+    position: static;
+    width: 100%;
+    height: 5vw;
+    box-shadow: 0px 0px 10px black;
+}
+
+.cameraPage
+{
+    position: fixed;
+    margin-top: 5%;
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    border-radius: 10vw;
+}

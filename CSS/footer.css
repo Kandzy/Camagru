@@ -1,0 +1,118 @@
+.footer{
+    background-color: #08558b;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    color: black;
+    width: 100%;
+    height: 6.5vw;
+}
+
+.logo
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch
+}
+
+.moreInfo
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin: 0;
+}
+
+.fbimg
+{
+    height: 1.5vw;
+    width: 1.5vw;
+    margin: 0;
+}
+
+.twitter{
+    height: 1.5vw;
+    width: 1.5vw;
+    margin: 0;
+}
+
+.linkedin{
+    height: 1.5vw;
+    width: 1.5vw;
+    margin: 0;
+}
+
+.DK
+{
+    margin-left: 5vw;
+    /*margin: 0;*/
+    height: 5vw;
+    width: 5vw;
+}
+
+.mailphone{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: stretch;
+}
+
+.emailPic {
+    height: 2.5vw;
+    width: 2.5vw;
+}
+
+.email{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+}
+
+.emailText
+{
+    color:white;
+    margin: 0;
+    font-size: 1.7vw;
+}
+
+.mobilePic{
+    margin: 0;
+    height: 2vw;
+    width: 2vw;
+}
+
+.mobile{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+}
+
+.mobileText{
+    color:white;
+    margin: 0;
+    font-size: 1.7vw;
+}
+
+.copyright {
+    color:white;
+    margin: 0;
+    font-size: 1.2vw;
+}

@@ -1,0 +1,29 @@
+<div id="profileGaleryForm" style="margin-top:15%">
+    <div style="display:flex; justify-content: center;">
+    <a href="/profile/updates"><button class="ButtonForget">Update Profile</button></a>
+    </div>
+    <div class="userGallery">
+        <input type="hidden" id="page" value="1">
+        <div class="mainProfileImage">
+            <input type="hidden" id="PID" value="">
+            <img id="MainPicture" style="height:80%; width: 80%" src="../../src/picnotfound.jpg">
+        </div>
+        <div style="display:flex; justify-content: center; align-items: center; text-align: center; background-color: rgba(0,0,0,0.7); height: 3vh; width: 16vw; min-height: 15px">
+            <button id="buttonPrevious" style="height: 3vh; width: 8vw;font-size: 10px; background-color: #08558b; color:white; outline: none; min-height: 15px;">prev</button>
+            <button id="buttonNext" style="height: 3vh; width: 8vw; font-size: 10px; background-color: #08558b; color:white;outline: none;min-height: 15px;">next</button>
+        </div>
+        <div class="profileSetOfPhotos" id="ProfilePhotos">
+
+        </div>
+        <div>
+            <div class="commentDiv">
+                <textarea disabled class="comments" id="commentpic0"></textarea>
+                <textarea placeholder="Add your answer... " id="Answ" class="answer" onkeypress="if(event.keyCode == 13){addAnsw();}"></textarea>
+                <div>
+                    <button id="buttonSend" class="buttonSend" onclick="addAnsw()">Send</button>
+                </div>
+            </div>
+        </div>
+        <div style="height: 40vh"></div>
+    </div>
+</div>

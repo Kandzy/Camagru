@@ -1,0 +1,51 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: dkliukin
+ * Date: 7/5/18
+ * Time: 6:10 PM
+ */
+
+?>
+
+<div id="camera" class="cameraPage">
+    <div style=" margin-top: 5%; display: flex; flex-direction: row; align-items: flex-start">
+        <div style="display: flex; flex-direction: column">
+            <div>
+            <video style=" height: 24vw; width: 32vw" id="video"  autoplay></video>
+            </div>
+   <canvas style=" display: none;"  width="480" height="360" id="canvas" ></canvas><!-- width="480" height="360"-->
+            <button id="TakePic">Snap Photo</button>
+            <button disabled type="button" id="savephoto" style="display: none">Save photo</button>
+        </div>
+
+    <img id="hiddenIMG" style="display: none" src="">
+    <input type="hidden" id="upl" value="">
+
+    <div class="cameraSetOfPhotos" id="camegaEditPhotos">
+
+    </div>
+        <div style="display:flex; flex-direction: column; justify-content: center; align-items: flex-start; text-align: center; height: 6vh; width: 8vw; min-height: 15px">
+            <button id="cambuttonPrevious" style="height: 3vh; width: 8vw;font-size: 10px; background-color: #08558b; color:white; outline: none; min-height: 15px;">prev</button>
+            <button id="cambuttonNext" style="height: 3vh; width: 8vw; font-size: 10px; background-color: #08558b; color:white;outline: none;min-height: 15px;">next</button>
+            <div style="display:flex; flex-direction: column; height: 2vw;">
+                <span style="color:white">W:</span><input style="width: 2vw" id="W" type="text">
+                <span style="color:white">H:</span><input style="width: 2vw" id="H" type="text">
+                <span style="color:white">L:</span><input style="width: 2vw" id="L" type="text">
+                <span style="color:white">D:</span><input style="width: 2vw" id="D" type="text">
+            </div>
+        </div>
+    </div>
+    <div style="height: 10vh; width: 100%;">
+    <div style='margin-left: 22%; height: 2vw; width: 50vw;'>
+        <p style="color: white">Upload Image</p>
+        <input type="hidden" id="pagecam" value="1">
+        <form action='/profile/uploadPicture' id='othdetphotoform' enctype='multipart/form-data' method='post'>
+            <p><input id='photoloader' style='color:white; width: 9vw font-size: 0px' type='file' name='photoloader' accept='image/*'>
+                <input class="ButtonForget" type='submit' value='send'></p>
+        </form>
+    </div>
+    </div>
+
+</div>
+<div style="height: 30vw"></div>

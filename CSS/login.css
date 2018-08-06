@@ -1,0 +1,39 @@
+.Logincenter{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: space-around;
+}
+
+.loginForm{
+    position: fixed;
+    top: 30%;
+    left: 36%;
+    color:black;
+    border-radius: 5vw;
+    width: 23%;
+    padding:2vw;
+}
+
+.login {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: #ff000c;
+    font-family: Georgia;
+    font-size: 1.5vw;
+}
+
+.inputlogin{
+    min-width: 125px;
+    min-height: 20px;
+    outline: none;
+    height: 3vw;
+    width:90%;
+    font-size: 2.5vw;
+    border-radius: 2vw;
+    text-align: center;
+    box-shadow: 0.2vw 0.2vw 0.2vw #aaaaaa;
+}

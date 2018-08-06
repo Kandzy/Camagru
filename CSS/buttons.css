@@ -1,0 +1,197 @@
+.boxtop
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    z-index: 100;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+}
+
+.mainpage
+{
+    z-index: 5;
+    position: relative;
+    height: 40px;
+    width: 200px;
+}
+
+.profile
+{
+    z-index: 5;
+    font-style: italic;
+}
+
+.buttonMain{
+    min-height: 16px;
+    min-width: 61px;
+    z-index: 5;
+    outline: none;
+    height: 1.7em;
+    width: 6em;
+    font-size: calc(8px + 1vw);
+    border-bottom-right-radius: 0.5vw;
+    color: white;
+    background-color: #08558b;
+}
+
+.buttonMain:hover {
+    background-color: #ff8600;
+}
+
+.buttonProfile{
+    min-height: 16px;
+    min-width: 61px;
+    z-index: 5;
+    outline: none;
+    height: 1.7em;
+    width: 6em;
+    font-size: calc(8px + 1vw);
+    border-bottom-left-radius: 0.5vw;
+    color: white;
+    background-color: #08558b;
+}
+
+.buttonProfile:hover {
+    background-color: #ff8600;
+}
+
+.signupDiv
+{
+    z-index: 5;
+}
+
+.signinDiv
+{
+    z-index: 5;
+}
+
+.buttonSignin {
+    min-height: 16px;
+    min-width: 61px;
+    outline: none;
+    height: 1.7em;
+    width: 6em;
+    font-size: calc(8px + 1vw);
+    border-bottom-left-radius: 0.5vw;
+    color: white;
+    background-color: #08558b;
+    background-size: 100% 100%;
+}
+
+.buttonSignin:hover {
+    background-color: #ff8600;
+}
+
+.buttonSignup {
+    min-height: 16px;
+    min-width: 61px;
+    outline: none;
+    height: 1.7em;
+    width: 6em;
+    font-size: calc(8px + 1vw);
+    color: white;
+    background-color: #08558b;
+    background-size: 100% 100%;
+}
+
+.buttonSignup:hover {
+    background-color: #ff8600;
+}
+
+.logoutDiv
+{
+    z-index: 5;
+}
+
+.buttonLogout
+{
+    min-height: 16px;
+    min-width: 61px;
+    z-index: 5;
+    outline: none;
+    height: 1.7em;
+    width: 6em;
+    font-size: calc(8px + 1vw);
+    color: white;
+    background-color: #08558b;
+    background-size: 100% 100%;
+}
+
+.buttonLogout:hover {
+    background-color: #ff8600;
+}
+
+.buttonUpdate{
+    outline: none;
+    /*margin: -2vw 5vw;*/
+    height: 1.7em;
+    width: 6em;
+    font-size: 2vw;
+    border-radius:  0.5vw;
+    color: white;
+    background-color: #08558b;
+}
+
+.buttonChange{
+    outline: none;
+    height: 3.5vw;
+    width: 12vw;
+    font-size: 1.2vw;
+    border-radius:  0.5vw;
+    color: white;
+    background-color: #08558b;
+}
+
+.buttonDelete{
+    outline: none;
+    height: 3.5vw;
+    width: 12vw;
+    font-size: 1.2vw;
+    border-radius:  0.5vw;
+    color: white;
+    background-color: #08558b;
+}
+
+.Buttons
+{
+    z-index: 5;
+    outline: none;
+    min-width: 85px;
+    min-height: 18px;
+    background-color: gray;
+    color: white;
+    position: relative;
+    font-size: 1.7vw;
+    height: 3.2vw;
+    width: 11vw;
+    border-radius:  0.5vw;
+}
+
+.buttonRecover
+{
+    z-index: 5;
+    min-width: 85px;
+    min-height: 18px;
+    outline: none;
+    background-color: gray;
+    color: white;
+    position: relative;
+    font-size: 1.7vw;
+    height: 3.2vw;
+    width: 11vw;
+    border-radius:  0.5vw;
+}
+
+.ButtonForget
+{
+    outline: none;
+    color: white;
+    background-color: #08558b;
+    border-radius:  0.5vw;
+    font-size: 1.1vw;
+}

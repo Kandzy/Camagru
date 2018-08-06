@@ -1,0 +1,42 @@
+<div class='changePasswd' id="changePassForm">
+    <form class='cpform'>
+        <table>
+            <div class='passchange'>
+                <tr>
+                    <p class='ChgPasP'>Change Password</p>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="field">
+
+                            <p>Old Password:</p>
+                            <input class='inputf' type="password" name="oldpass" id="oldpass" required>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="field">
+                            <p>New Password:</p>
+                            <input class='inputf' type="password" name="newpass" id="newpass" required>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="field">
+                            <p>Confirm Password:</p>
+                            <input class='inputf' type="password" name="connewpass" id="connewpass" required>
+                        </div>
+                    </td>
+                </tr>
+                <th >
+                    <button class="Buttons" type="button" id="changePass" disabled >Change</button>
+                </th>
+            </div>
+        </table>
+    </form>
+    <div class="changePasswdError" id="passError">
+        <p id="passFail" class='login' style='margin-top: -0vw'></p>
+    </div>
+</div>

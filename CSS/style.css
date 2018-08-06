@@ -1,0 +1,161 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.background
+{
+    height: 120vh;
+    width: 100%;
+    background-image: url("../src/back3.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center
+}
+
+
+.changePasswd {
+    position: absolute;
+    z-index: 0;
+    background-color: rgba(0,0,0,0.8);
+    background-size: 100% 100%;
+    color:white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15vw;
+    padding:2vw;
+    left: -2.7%;
+
+}
+
+.ChgPasP {
+    margin-left: 3.5vw;
+    font-style: italic;
+    font-weight: bold;
+    color: #ff000c;
+    font-family: Georgia;
+    font-size: 1.5vw;
+}
+
+.cpform
+{
+    margin-left: 0%;
+}
+
+.field {
+    clear:both;
+    text-align:center;
+    line-height: 25px;
+}
+
+.time
+{
+    z-index: 2;
+    color: azure;
+    position: absolute;
+    width: 101%;
+    height: 3vw;
+    font-size: 1.5vw;
+    left: 0.5%;
+    font-family: Georgia;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-size: 1.3vw;
+}
+
+
+
+.recoverForm{
+    position: fixed;
+    top: 30%;
+    left: 36%;
+    color:black;
+    border-radius: 5vw;
+    width: 23%;
+    padding:2vw;
+}
+
+.inputf{
+    height: 1.7vw;
+    width:70%;
+    font-size: 2vw;
+    border-radius: 1vw;
+    text-align: center;
+    outline: none;
+}
+
+.headerGallery{
+    position: absolute;
+    margin-top: 10%;
+    font-size: 3vw;
+    color: #248b7d;
+}
+
+.logsign{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+
+.loginError
+{
+    display: none;
+    background-color: black;
+    text-align: center;
+    opacity: 0.8;
+    padding: 0.5vw;
+    border: 0.2vw solid red;
+}
+
+.signupError
+{
+    display: none;
+    background-color: black;
+    margin-left: 1.5vw;
+    opacity: 0.8;
+    padding: 0.5vw;
+    border: 0.2vw solid red;
+}
+
+.signupErrorUser
+{
+    z-index: 2;
+    display: none;
+    opacity: 0.8;
+    padding: 1px;
+}
+
+.loginSignupError
+{
+    background-color: black;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: #ff000c;
+    font-size: 1.2vw;
+    margin-top: -0.5vw;
+}
+
+.loginTable{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}

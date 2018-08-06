@@ -1,0 +1,60 @@
+<div class="loginForm" id="signup">
+    <form method="post">
+        <div class="loginTable">
+    <table>
+        <tr>
+            <td>
+                <div class="field">
+                    <div style="z-index: 7">
+                    <input id="login" class="inputlogin" placeholder="Login" type="text" name="login" required>
+                    </div>
+                    <div class="signupErrorUser" id="userExistDiv">
+                        <p id="userExist" class='loginSignupError'></p>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+
+            <td>
+                <div class="field">
+                    <div>
+                        <input id="email" class="inputlogin" placeholder="Email" type="text" name="email" required>
+                    </div>
+                    <div class="signupErrorUser" id="emailExistDiv">
+                        <p id="emailExist" class='loginSignupError'></p>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="field">
+                    <div>
+                        <input id="passwd" class="inputlogin" placeholder="Password" type="password" name="passwd" required>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="field">
+                    <input id="passwd2" class="inputlogin" placeholder="Repeat Passwd" type="password" name="conf_pass" required>
+                </div>
+                <div class="signupErrorUser" id="passwordMatchDiv">
+                    <p id="passwordMatch" class='loginSignupError'></p>
+                </div>
+            </td>
+        </tr>
+        <th colspan="2" style="text-align: center">
+            <button class="Buttons" type="button" id="SignUp" disabled>Sign Up</button>
+        </th>
+
+    </table>
+<!--        </div>-->
+            <div class="signupError" id="errorSign">
+                <p id="errorMsg" class='login' style='margin-top: -0vw'></p>
+            </div>
+    </form>
+    </div>
+</div>

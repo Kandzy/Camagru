@@ -1,0 +1,135 @@
+.setPhotos{
+    margin-top:5%;
+    width: 70%;
+    text-align: center;
+    height: auto;
+    background-color: rgba(151, 151, 151, 0.7);
+}
+
+.Photos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+    margin-bottom: 30px;
+}
+
+.PhotoDiv{
+    margin: 20px;
+}
+
+.BlockDiv
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+    width: 100%;
+}
+
+.bn
+{
+    display: inline-block;
+    position: relative;
+    vertical-align: bottom;
+}
+
+.bp
+{
+    display: inline-block;
+    position: relative;
+    vertical-align: bottom;
+}
+
+.galeryImage {
+    /*margin: 20px;*/
+    background-color: black;
+    position: static;
+    min-width: 40vw;
+    min-height: 25vw;
+    width: 60%;
+    height: 60%;
+    box-shadow: 0px 0px 10px black;
+}
+
+.setPhotos .buttonNext
+{
+    position: inherit;
+    outline: none;
+    height: 6%;
+    width: 15vw;
+    font-size: 2vw;
+    border-radius:  0.5vw;
+    color: white;
+    background-color: #08558b;
+    background-size: 100% 100%;
+}
+
+.buttonNext:hover {
+    background-color: #ff8600;
+}
+
+.buttonSend
+{
+    outline: none;
+    height: 1.7em;
+    width: 6em;
+    font-size: 2vw;
+    border-radius:  0.5vw;
+    color: white;
+    background-color: #08558b;
+    background-size: 100% 100%;
+}
+
+.commentField
+{
+    width: 100%;
+}
+
+.Commarea
+{
+    background-color: #ffffff;
+    height: 300px;
+    width: 60%;
+    resize: none;
+    border: 3px inset #08558b;
+}
+
+.userComment{
+    background-color: #ffffff;
+    width: 60%;
+    height: 50px;
+    resize: none;
+    border: 3px inset #08558b;
+}
+
+.divNewP
+{
+    z-index: 2;
+    margin-top: 9vh;
+    text-align: center;
+    width: 18%;
+}
+
+.AddNewP{
+    outline: none;
+    height: 3vw;
+    width: 20vw;
+    font-size: calc(4px + 1vw);
+    border-radius:  0.5vw;
+    color: white;
+    background-color: #08558b;
+    background-size: 100% 100%;
+}
+
+.likes
+{
+    outline: none;
+    border-radius: 1000px;
+    height: 26px;
+    border: 2px solid red;
+}
